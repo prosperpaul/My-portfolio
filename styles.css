@@ -171,6 +171,8 @@ section {
   cursor: pointer;
   height: 2rem;
   width: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .btn-container {
   display: flex;
@@ -217,6 +219,9 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+.text-container {
+  padding: 1rem 1rem;
+}
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -254,6 +259,18 @@ section {
 #experience {
   position: relative;
 }
+/* .exp {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.pass {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.express {
+  padding-left: 2rem;
+  padding-right: 2rem;
+} */
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
@@ -272,12 +289,16 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
 }
 article {
   /* display: flex; */
   width: 5rem;
   justify-content: space-around;
   gap: 0.5rem;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
 }
 article .icon {
   cursor: default;
@@ -319,7 +340,7 @@ h2 {
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
   margin: 2rem auto;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .contact-info-container {
   display: flex;
